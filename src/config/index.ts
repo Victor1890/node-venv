@@ -1,7 +1,5 @@
-const {
-    APP_NAME = 'node-venv'
-} = process.env;
+const { APP_NAME = 'node-venv' } = process.env;
 
 export const config = {
-    APP_NAME
+  APP_NAME,
 };
