@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "name": "node-env",
+  "module": "src/index.ts",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --bun run ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/yargs": "^17.0.33"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "tslog": "4.9.3",
+    "yargs": "17.7.2"
+  }
+}
